@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1594-users
 x-kinRank: "8"
 x-alexaRank: "95542"
 tags: Screenshot
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/screenshot/master/_listings/usersnap/apis.md
 specificationVersion: "0.14"
 apis: []

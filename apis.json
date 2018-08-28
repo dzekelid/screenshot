@@ -1,0 +1,128 @@
+{
+	"name": "Streadata.io API Gallery - Screenshot",
+	"description": "This is a repository of screenshot APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/screenshot.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://screenshot.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Dribbble",
+			"x-api-slug": "dribbble",
+			"description": "Shots from popular and up and coming designers in the Dribbble community, your best resource to discover and connect with designers worldwide.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/580-dribbble.jpg",
+			"humanURL": "http://dribbble.com",
+			"baseURL": "https:///",
+			"tags": "Screenshot",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/screenshot/master/_listings/dribbble/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Browshot",
+			"x-api-slug": "browshot",
+			"description": "Browshot is a service to take screenshot of web pages. Use any of our mobile and desktop browsers. We provide a powerful API and libraries.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/717-browshot-com.jpg",
+			"humanURL": "http://browshot.com/",
+			"baseURL": "https://api.browshot.com//api/v1",
+			"tags": "Screenshot",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/screenshot/master/_listings/browshot/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "url2png / Dan Vine",
+			"x-api-slug": "url2png--dan-vine",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/961_logo..png",
+			"humanURL": "http://url2png.com",
+			"baseURL": "https:///",
+			"tags": "Screenshot",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/screenshot/master/_listings/url2png--dan-vine/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Usersnap",
+			"x-api-slug": "usersnap",
+			"description": "Usersnap Classic & CX help you build products your customers love by using smart feedback, With visual bug tracking and NPS scoring integrated into your website, app, or customer experience. Try it today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1594-usersnap.jpg",
+			"humanURL": "https://usersnap.com/support/docs/usersnapapi",
+			"baseURL": "https:///",
+			"tags": "Screenshot",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/screenshot/master/_listings/usersnap/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2",
+			"x-api-slug": "aws-ec2",
+			"description": "Amazon Elastic Compute Cloud is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2s simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon&rsquo;s proven computing environment. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change. Amazon EC2 changes the economics of computing by allowing you to pay only for capacity that you actually use. Amazon EC2 provides developers the tools to build failure resilient applications and isolate themselves from common failure scenarios.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png",
+			"humanURL": "https://aws.amazon.com/ec2/",
+			"baseURL": ":///",
+			"tags": "Screenshot",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/screenshot/master/_listings/aws-ec2/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "link.fish",
+			"x-api-slug": "link-fish",
+			"description": "Automatically get the information of the websites you are interested in and work with it together with others in real-time. Depending on the page you bookmark link.fish automatically extracts the data you actually care about. No matter if bedrooms for apartments, rating of movies or the cook time of your favorite recipe. Invite other people to your collection to work with them or make it public for everbody to see. All changes made will immediately be visible by everyone.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/link-fish-logo.png",
+			"humanURL": "http://link.fish",
+			"baseURL": "https://api.link.fish//",
+			"tags": "Screenshot",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/screenshot/master/_listings/link-fish/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Screenshot",
+	"include": [
+		{
+			"name": "Dribbble",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/screenshot/master/_listings/dribbble/apis.yaml"
+		},
+		{
+			"name": "Browshot",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/screenshot/master/_listings/browshot/apis.yaml"
+		},
+		{
+			"name": "url2png / Dan Vine",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/screenshot/master/_listings/url2png--dan-vine/apis.yaml"
+		},
+		{
+			"name": "Usersnap",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/screenshot/master/_listings/usersnap/apis.yaml"
+		},
+		{
+			"name": "AWS EC2",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/screenshot/master/_listings/aws-ec2/apis.yaml"
+		},
+		{
+			"name": "link.fish",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/screenshot/master/_listings/link-fish/apis.yaml"
+		}
+	]
+}
